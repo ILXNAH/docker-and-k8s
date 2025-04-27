@@ -1,1 +1,8 @@
 .vscode/settings.json
+data-volumes/.DS_Store:Zone.Identifier
+.gitignore
+data-volumes/package.json:Zone.Identifier
+data-volumes/server.js:Zone.Identifier
+data-volumes/pages/exists.html:Zone.Identifier
+data-volumes/pages/feedback.html:Zone.Identifier
+data-volumes/public/styles.css:Zone.Identifier
