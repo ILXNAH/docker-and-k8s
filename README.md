@@ -23,7 +23,7 @@ Repository following the course:
 16. [Roundup & Next Steps](docs/16-roundup-next-steps.md)
 
 ## 📚 Additional Resources
-- [📚 Quizzes & Answers](docs/quizzes-and-answers.md)
+- [📚 Quizzes & Answers](docs/00-quizzes-and-answers.md)
 
 ---
 
