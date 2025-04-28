@@ -1,8 +1,19 @@
-.vscode/settings.json
-data-volumes/.DS_Store:Zone.Identifier
-.gitignore
-data-volumes/package.json:Zone.Identifier
-data-volumes/server.js:Zone.Identifier
-data-volumes/pages/exists.html:Zone.Identifier
-data-volumes/pages/feedback.html:Zone.Identifier
-data-volumes/public/styles.css:Zone.Identifier
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows "Zone.Identifier" metadata files
+*.Zone.Identifier
+
+# Node.js / npm related
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# System Trash (if applicable)
+.trash/
+
+# Cache folders (general)
+.cache/
