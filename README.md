@@ -6,7 +6,7 @@ Repository following the course:
 ## Course Sections:
 
 1. [Getting Started](docs/01-getting-started.md)
-2. [Docker Images & Containers: Core Building Blocks](docs/02-docker-images-containers.md)
+2. [Docker Images & Containers: Core Building Blocks](docs/02-images-and-containers.md)
 3. [Managing Data & Working with Volumes](docs/03-managing-data-volumes.md)
 4. [Networking: (Cross-)Container Communication](docs/04-networking-containers.md)
 5. [Building Multi-Container Applications with Docker](docs/05-multi-container-apps.md)
