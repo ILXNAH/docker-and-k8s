@@ -22,8 +22,12 @@ Repository following the course:
 15. [Kubernetes Deployment (AWS EKS)](docs/15-kubernetes-aws-eks.md)
 16. [Roundup & Next Steps](docs/16-roundup-next-steps.md)
 
+## 📚 Additional Resources
+- [📚 Quizzes & Answers](docs/quizzes-and-answers.md)
+
 ---
 
 ## About
 
 This repo contains notes, code snippets, and practical exercises based on the course material.
+
