@@ -6,7 +6,7 @@
 - [What is a Container?](#-what-is-a-container)
 - [Virtual Machines vs Containers](#-virtual-machines-vs-containers)
 - [Docker Containers](#-docker-containers)
-- [Docker Setup](#️️️️️️⚙️-docker-setup)
+- [Docker Setup](#%EF%B8%8F-docker-setup)
 - [Docker Tools & Building Blocks](#-docker-tools--building-blocks)
 - [IDE Setup](#-ide-setup)
 - [Create and Run a Container](#-create-and-run-a-container)
