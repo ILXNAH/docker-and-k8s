@@ -49,7 +49,7 @@ A container is a **standardized unit**:
 
 - [Install Docker Engine](https://docs.docker.com/engine/install/)
 - [Install Docker Desktop (for Windows + WSL2)](https://docs.docker.com/desktop/setup/install/windows-install/)
-- [📄 Installing Docker on Windows (PDF)](../resources/installing-docker-on-windows.pdf)
+- [📄 Installing Docker on Windows (PDF)](https://github.com/ILXNAH/docker-and-k8s/raw/main/resources/Installing%2BDocker%2Bon%2BWindows.pdf)
 
 ---
 
