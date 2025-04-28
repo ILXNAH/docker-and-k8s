@@ -11,11 +11,11 @@
    - [Analyzing a real app; building & understanding the demo](#analyzing-a-real-app-building--understanding-the-demo)
 - [2. Understanding Volumes](#2-understanding-volumes)
    - [Two Types of External Data Storages](#two-types-of-external-data-storages)
-     - [1. Volumes (Managed by Docker)](#1-volumes-managed-by-docker)
+     - [2.1. Volumes (Managed by Docker)](#1-volumes-managed-by-docker)
        - [Two Types of Volumes:](#two-types-of-volumes)
-         - [1. Anonymous Volumes](#1-anonymous-volumes)
-         - [2. Named Volumes](#2-named-volumes)
-     - [2. Bind Mounts (managed by you)](#2-bind-mounts-managed-by-you)
+         - [2.1.1. Anonymous Volumes](#1-anonymous-volumes)
+         - [2.1.2. Named Volumes](#2-named-volumes)
+     - [2.2. Bind Mounts (managed by you)](#2-bind-mounts-managed-by-you)
    - [Understanding Container / Volume Interaction](#understanding-container--volume-interaction)
      - [WSL & Bind Mounts](#wsl--bind-mounts)
    - [Overview: Volumes & Mounts](#overview-volumes--mounts)
@@ -73,11 +73,11 @@
 
 ### Two Types of External Data Storages
 
-#### 1. Volumes (Managed by Docker)
+#### 2.1. Volumes (Managed by Docker)
 
 ##### Two Types of Volumes:
 
-###### 1. Anonymous Volumes
+###### 2.1.1. Anonymous Volumes
 - Auto-generated name.
 - Deleted with `--rm`, or kept manually.
 - Cannot be reused by new containers.
@@ -86,13 +86,13 @@
   - `docker volume rm <NAME>`
   - `docker volume prune`
 
-###### 2. Named Volumes
+###### 2.1.2. Named Volumes
 - You define their name.
 - Persist even after container shutdown.
 - Great for persistent app data.
 - Run example: `-v feedback:/app/feedback`
 
-#### 2. Bind Mounts (managed by you)
+#### 2.2. Bind Mounts (managed by you)
 
 - You define the host path.
 - Great for editable persistent data (e.g. source code).
