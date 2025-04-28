@@ -74,21 +74,30 @@ A container is a **standardized unit**:
 
 ## 🐳 Create and Run a Container
 
+### Create Dockerfile with configuration
 ```bash
-# Create Dockerfile with configuration
 docker build .
+``` 
 
-# View built images
+### View built images
+```bash
 docker images
+``` 
 
-# Run container with port mapping (example: map port 3000)
+### Run container with port mapping (example: map port 3000)
+```bash
 docker run -p 3000:3000 <IMAGE_ID>
+``` 
 
-# View running containers
+### View running containers
+```bash
 docker ps
+``` 
 
-# Stop running container
+### Stop running container
+```bash
 docker stop <CONTAINER_ID>
+``` 
 
 ## 🗺 Course Outline
 
