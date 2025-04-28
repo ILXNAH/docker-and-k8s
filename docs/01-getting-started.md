@@ -1,5 +1,20 @@
 # Section 1: Getting Started
 
+## 📑 Table of Contents
+
+- [What is Docker?](#-what-is-docker)
+- [What is a Container?](#-what-is-a-container)
+- [Virtual Machines vs Containers](#-virtual-machines-vs-containers)
+- [Docker Containers](#-docker-containers)
+- [Docker Setup](#-docker-setup)
+- [Docker Tools & Building Blocks](#-docker-tools--building-blocks)
+- [IDE Setup](#-ide-setup)
+- [Create and Run a Container](#-create-and-run-a-container)
+- [Course Outline](#-course-outline)
+- [Resources for Section 1](#-resources-for-section-1)
+
+---
+
 [🔗 Udemy Course Link](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/learn/lecture/22166652#overview)  
 [🔗 Discord Community](https://academind.com/community/)
 
