@@ -24,7 +24,7 @@
     - [Sharing via Docker Hub or Private Registry](#sharing-via-docker-hub-or-private-registry)
     - [Pushing Images to Docker Hub](#pushing-images-to-docker-hub)
     - [Pulling & Using Shared Images](#pulling--using-shared-images)
-- [Module Resources](#module-resources)
+- [Module Resources](#-module-resources)
 
 ---
 
