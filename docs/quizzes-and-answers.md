@@ -66,7 +66,10 @@ docker run node
 3. `docker stop mycontainer`
 
 Which of the below commands will fail?
-- `docker rm mycontainer`
+
+```bash
+docker rm mycontainer
+```
 
 ---
 
