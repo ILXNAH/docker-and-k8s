@@ -18,4 +18,5 @@ yarn-error.log
 # Cache folders (general)
 .cache/
 
+# Ignore Ansible local configuration and cache
 .ansible/
