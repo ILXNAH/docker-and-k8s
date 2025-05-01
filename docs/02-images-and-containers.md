@@ -363,7 +363,7 @@ docker run username/image-name
 
 ## 📚 Module Resources
 
-- [📄 Cheat Sheet: Images & Containers](/resources/Cheat-Sheet-Images-Containers.pdf)
-- [📄 Slides: Images & Containers](/resources/slides-images-containers.pdf)
+- [📄 Cheat Sheet: Images & Containers](https://ilxnah.github.io/docker-and-k8s/resources/Cheat-Sheet-Images-Containers.pdf)
+- [📄 Slides: Images & Containers](https://ilxnah.github.io/docker-and-k8s/resources/slides-images-containers.pdf)
 
 ---
