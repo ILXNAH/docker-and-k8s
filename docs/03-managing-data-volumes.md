@@ -186,4 +186,4 @@ docker run --env-file ./.env ...
 
 ## Module Summary
 
-![Module Summary](resources/images/20250428085444.png)
+![Module Summary](https://raw.githubusercontent.com/ILXNAH/docker-and-k8s/main/resources/images/20250428085444.png)
