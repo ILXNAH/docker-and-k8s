@@ -18,11 +18,11 @@
     - [Security, authentication, access limitation](#security-authentication-access-limitation)
       - [Standard MongoDB Connection String Format](#standard-mongodb-connection-string-format)
       - [Standalone Connection String to enforce access control](#standalone-connection-string-to-enforce-access-control)
-      - [👉 Sidenote](#👉-sidenote)
+      - [👉 Sidenote](#-sidenote)
     - [Volumes, Bind Mounts & Polishing for the NodeJS Container](#volumes-bind-mounts--polishing-for-the-nodejs-container)
     - [Optimization of Backend](#optimization-of-backend)
     - [Optimization of Frontend (React SPA Container)](#optimization-of-frontend-react-spa-container)
-- [✅ Module Summary & Resources](#✅-module-summary--resources)
+- [✅ Module Summary & Resources](#-module-summary--resources)
 
 ---
 
