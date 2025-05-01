@@ -10,6 +10,10 @@ FROM node:14-alpine
 # If permission errors occur when writing to mounted volumes,
 # add write permissions to the project directory:
 # chmod -R a+w /path/to/your/project
+#
+# ⚠ Note: Matching the container user to your local Linux user (UID/GID)
+# makes the image less portable across different environments.
+# For local Utility Containers, this trade-off is usually acceptable.
 
 # USER node
 
