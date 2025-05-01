@@ -3,6 +3,7 @@
 ![Learning Lab](https://img.shields.io/badge/learning-lab-8aadf4?style=flat-square&logo=docker)
 ![Status](https://img.shields.io/badge/status-in--progress-a6da95?style=flat-square)
 ![Progress](https://img.shields.io/badge/progress-133%20of%20270-eed49f?style=flat-square)
+<!-- Update the number in the Progress badge URL as you complete more lectures -->
 
 ## About
 
