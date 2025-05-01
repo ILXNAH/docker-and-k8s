@@ -13,7 +13,7 @@
   - [Dockerize BE](#dockerize-be)
   - [Dockerize FE](#dockerize-fe)
   - [Putting all apps into the same network](#putting-all-apps-into-the-same-network)
-  - [🚀 Optimize: Set up data persistence, access limitation, live source code updates etc.](#optimize-set-up-data-persistence-access-limitation-live-source-code-updates-etc)
+  - [🚀 Optimize: Set up data persistence, access limitation, live source code updates etc.](#-optimize-set-up-data-persistence-access-limitation-live-source-code-updates-etc)
     - [Adding Data Persistence to MongoDB with Volumes](#adding-data-persistence-to-mongodb-with-volumes)
     - [Security, authentication, access limitation](#security-authentication-access-limitation)
       - [Standard MongoDB Connection String Format](#standard-mongodb-connection-string-format)
