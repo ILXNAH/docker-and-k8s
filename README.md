@@ -31,4 +31,4 @@ Repository following the course:
 This repo contains notes, code snippets, and practical exercises based on the course material.
 
 ## 🐳 My public Docker images
-[Docker Hub — ilouckov](https://hub.docker.com/repositories/ilouckov)
+[Docker Hub — ilouckov](https://hub.docker.com/u/ilouckov)
