@@ -1,12 +1,12 @@
 # 7. Working With 'Utility Containers' & Executing Commands In Containers
 ## 📁 Table of Contents
-- [🧾 Module Intro](#-module-introduction)
-- [❔ The Purpose of Utility Containers - Why Use Them](#-the-purpose-of-utility-containers---why-use-them)
-- [🔧 Different Ways of Running Commands in Containers](#-different-ways-of-running-commands-in-containers)
-- [🏗 Building a Utility Container](#-building-a-utility-container)
-- [⚙️ Utilizing ENTRYPOINT](#-utilizing-entrypoint)
-- [🐳 Using Docker Compose](#-using-docker-compose)
-  - [🔒 Define Linux User & Permissions for Utility Container](#-define-linux-user--permissions-for-utility-container)
+- 🧾 [Module Intro](#-module-introduction)
+- ❔ [The Purpose of Utility Containers - Why Use Them](#-the-purpose-of-utility-containers---why-use-them)
+- 🔧 [Different Ways of Running Commands in Containers](#-different-ways-of-running-commands-in-containers)
+- 🏗 [Building a Utility Container](#-building-a-utility-container)
+- ⚙️ [Utilizing ENTRYPOINT](#-utilizing-entrypoint)
+- 🐳 [Using Docker Compose](#-using-docker-compose)
+  - 🔒 [Define Linux User & Permissions for Utility Container](#-define-linux-user--permissions-for-utility-container)
 - [Module Summary & Resources](#module-summary--resources)
 
 ---
