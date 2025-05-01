@@ -135,5 +135,5 @@ docker stop <CONTAINER_ID>
 
 ## 📚 Resources for Section 1
 
-- [📄 Slides: Getting Started](../resources/slides-getting-started.pdf)
-- [📦 Demo Code: First Dockerized App](../resources/first-demo-dockerized.zip)
+- [📄 Slides: Getting Started](https://ilxnah.github.io/docker-and-k8s/resources/slides-getting-started.pdf)
+- [📦 Demo Code: First Dockerized App](https://ilxnah.github.io/docker-and-k8s/resources/first-demo-dockerized.zip)
