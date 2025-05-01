@@ -66,12 +66,18 @@ docker run --name goals-backend --rm -d -p 80:80 goals-node
 ```
 
 ### Dockerize FE
-- Dockerfile using `FROM node:20`.
-- Build and run:
+- By default, the FE app exposes the port 3000.
+- Build **Dockerfile** (with `FROM node:20` to ensure Node.js and dependency version compatibility).
+- Afterwards, build the image from it with:
 ```bash
 docker build -t goals-react .
+```
+- Run a container with:
+```bash
 docker run --name goals-frontend --rm -d -p 3000:3000 -it goals-react
 ```
+    - If the React app loses its input signal, it shuts down automatically.
+- Open `http://localhost:3000/` to check that it's working.
 
 ### Putting all apps into the same network
 ```bash
