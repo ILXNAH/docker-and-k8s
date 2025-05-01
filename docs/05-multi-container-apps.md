@@ -33,14 +33,14 @@
 1. Mongo database.
 2. BE = NodeJS REST API.
 3. FE = React SPA (Single-Page Application).
-
-- Detached from the BE.
-- Started with a dev server that hosts the React SPA.
+  - Detached from the BE.
+  - Started with a dev server that hosts the React SPA.
+There are two separate web servers running in BE and in FE.
 
 ### Dockerization of all three project parts
 #### 1️⃣ Database
 - DB & BE already done in previous modules.
-- Data must persist.
+- Data in DB must persist.
 - Access should be limited — [official mongo image](https://hub.docker.com/_/mongo/) provides user + password options.
 
 #### 2️⃣ Backend
