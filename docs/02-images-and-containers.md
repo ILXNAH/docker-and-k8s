@@ -363,7 +363,7 @@ docker run username/image-name
 
 ## 📚 Module Resources
 
-- [📄 Cheat Sheet: Images & Containers](../resources/Cheat-Sheet-Images-Containers.pdf)
-- [📄 Slides: Images & Containers](../resources/slides-images-containers.pdf)
+- [📄 Cheat Sheet: Images & Containers](/resources/Cheat-Sheet-Images-Containers.pdf)
+- [📄 Slides: Images & Containers](/resources/slides-images-containers.pdf)
 
 ---
