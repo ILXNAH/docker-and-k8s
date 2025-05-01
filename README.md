@@ -1,7 +1,13 @@
 # Docker & Kubernetes - Practical Guide
 
-Repository following the course:  
-[Docker & Kubernetes: The Practical Guide](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/)
+## About
+
+This repo contains my personal notes, code snippets, and practical exercises created while working through the [Docker & Kubernetes: The Practical Guide](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/) by Maximilian Schwarzmüller.
+
+Some of the content, including code and projects, closely follows or adapts materials from the course.  
+All original course materials (videos, slides, and code examples) remain the property of Maximilian Schwarzmüller.
+
+This repository is intended for personal learning and sharing insights with others following the course. It is not intended for redistribution or commercial use.
 
 ## Course Sections:
 
@@ -24,17 +30,6 @@ Repository following the course:
 
 ## 📚 Additional Resources
 - [📚 Quizzes & Answers](docs/00-quizzes-and-answers.md)
-
----
-
-## About
-This repo contains my personal notes, code snippets, and practical exercises created while working through the [Docker & Kubernetes: The Practical Guide](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/) by Maximilian Schwarzmüller.
-
-Some of the content, including code and projects, closely follows or adapts materials from the course.  
-All original course materials (videos, slides, and code examples) remain the property of Maximilian Schwarzmüller.
-
-This repository is intended for personal learning and sharing insights with others following the course. 
-It is not intended for redistribution or commercial use.
 
 ## 🐳 My public Docker images
 [Docker Hub — ilouckov](https://hub.docker.com/u/ilouckov)
