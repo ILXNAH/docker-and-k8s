@@ -1,5 +1,8 @@
 # Docker & Kubernetes - Practical Guide
 
+![Learning Lab](https://img.shields.io/badge/learning-lab-8aadf4?style=flat-square&logo=docker)
+![Status](https://img.shields.io/badge/status-in--progress-a6da95?style=flat-square)
+
 ## About
 
 This repo contains my personal notes, code snippets, and practical exercises created while working through the [Docker & Kubernetes: The Practical Guide](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/) by Maximilian Schwarzmüller.
