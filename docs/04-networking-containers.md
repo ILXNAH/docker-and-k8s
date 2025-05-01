@@ -81,5 +81,5 @@ Add a second container:
 
 ## Module Resources
 
-- [slides-networking.pdf](/resources/slides-networking.pdf)
-- [Cheat-Sheet-Networks-Requests.pdf](/resources/Cheat-Sheet-Networks-Requests.pdf)
+- [slides-networking.pdf](https://ilxnah.github.io/docker-and-k8s/resources/slides-networking.pdf)
+- [Cheat-Sheet-Networks-Requests.pdf](https://ilxnah.github.io/docker-and-k8s/resources/Cheat-Sheet-Networks-Requests.pdf)
