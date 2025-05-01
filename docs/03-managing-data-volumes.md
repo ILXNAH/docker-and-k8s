@@ -28,6 +28,7 @@
      - [Set ENV in Dockerfile](#set-env-in-dockerfile)
      - [Set ENV in Docker CLI](#set-env-in-docker-cli)
      - [Security note to storing ENVs](#security-note-to-storing-envs)
+- [Module Summary](#module-summary)
 
 ---
 
@@ -183,4 +184,6 @@ docker run --env-file ./.env ...
 - Never include sensitive ENV vars in `Dockerfile`.
 - Use external `.env` files or CLI `--env` for secrets.
 
----
+## Module Summary
+
+![Module Summary](resources/images/20250428085444.png)
