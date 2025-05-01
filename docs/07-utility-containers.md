@@ -1,10 +1,10 @@
 # 7. Working With 'Utility Containers' & Executing Commands In Containers
 ## 📁 Table of Contents
-- [🧾 Module Intro](#-module-intro)
+- [🧾 Module Intro](#-module-introduction)
 - [❔ The Purpose of Utility Containers - Why Use Them](#-the-purpose-of-utility-containers---why-use-them)
 - [🔧 Different Ways of Running Commands in Containers](#-different-ways-of-running-commands-in-containers)
 - [🏗 Building a Utility Container](#-building-a-utility-container)
-- [⚙️ Utilizing ENTRYPOINT](#️-utilizing-entrypoint)
+- [⚙️ Utilizing ENTRYPOINT](#-utilizing-entrypoint)
 - [🐳 Using Docker Compose](#-using-docker-compose)
   - [🔒 Define Linux User & Permissions for Utility Container](#-define-linux-user--permissions-for-utility-container)
 - [Module Summary & Resources](#module-summary--resources)
@@ -118,7 +118,7 @@ docker-compose run --rm npm init
 > By default, containers stop after the command finishes but are not automatically removed (unless using `--rm`).
 
 ### 🔒 Define Linux User & Permissions for Utility Container
-- A simple method is included as comments in the [provided Dockerfile](../../07-utility-containers/Dockerfile).
+- A simple method is included as comments in the [provided Dockerfile](/07-utility-containers/Dockerfile).
 - More advanced approach: [vsupalov.com/docker-shared-permissions](https://vsupalov.com/docker-shared-permissions/).
 
 ## Module Summary & Resources
