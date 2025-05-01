@@ -60,7 +60,7 @@ docker run --name mongodb -d --rm -p 27017:27017 mongo
 ```
 
 ### 2. Dockerize BE
-- create our own custom **[Dockerfile](backend/Dockerfile)** for the BE app
+- create our own custom **[Dockerfile](/05-multi-container-apps/backend/Dockerfile)** for the BE app
 - edit BE mongodb address reference to `host.docker.internal`
 - rebuild the image
 - run with publishing the port exposed in the **Dockerfile** with:
