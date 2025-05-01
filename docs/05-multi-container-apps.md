@@ -76,7 +76,7 @@ docker build -t goals-react .
 ```bash
 docker run --name goals-frontend --rm -d -p 3000:3000 -it goals-react
 ```
-    - If the React app loses its input signal, it shuts down automatically.
+- If the React app loses its input signal, it shuts down automatically.
 - Open `http://localhost:3000/` to check that it's working.
 
 ### Putting all apps into the same network
