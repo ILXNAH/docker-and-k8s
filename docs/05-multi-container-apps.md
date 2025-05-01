@@ -33,8 +33,8 @@
 1. Mongo database.
 2. BE = NodeJS REST API.
 3. FE = React SPA (Single-Page Application).
-  - Detached from the BE.
-  - Started with a dev server that hosts the React SPA.
+    - Detached from the BE.
+    - Started with a dev server that hosts the React SPA.
 There are two separate web servers running in BE and in FE.
 
 ### Dockerization of all three project parts
@@ -87,7 +87,7 @@ docker run --name mongodb -v data:/data/db --rm -d --network goals-net mongo
 
 #### Security, authentication, access limitation
 ```bash
-docker run --name mongodb -v data:/data/db --rm -d --network goals-net   -e MONGO_INITDB_ROOT_USERNAME=ilona   -e MONGO_INITDB_ROOT_PASSWORD=secret mongo
+docker run --name mongodb -v data:/data/db --rm -d --network goals-net -e MONGO_INITDB_ROOT_USERNAME=ilona -e MONGO_INITDB_ROOT_PASSWORD=secret mongo
 ```
 
 ##### Standard MongoDB Connection String Format
@@ -109,7 +109,7 @@ docker volume rm data
 
 #### Volumes, Bind Mounts & Polishing for the NodeJS Container
 ```bash
-docker run --rm -d -p 80:80 --name goals-backend --network goals-net   -v /root/docker-and-k8s/multi-container-apps/backend:/app   -v logs:/app/logs   -v /app/node_modules goals-node
+docker run --rm -d -p 80:80 --name goals-backend --network goals-net -v /root/docker-and-k8s/multi-container-apps/backend:/app -v logs:/app/logs -v /app/node_modules goals-node
 ```
 - Use nodemon for live code updates.
 - Add nodemon as a dev dependency.
@@ -122,7 +122,7 @@ docker run --rm -d -p 80:80 --name goals-backend --network goals-net   -v /root/
 
 #### Optimization of Frontend (React SPA Container)
 ```bash
-docker run --name goals-frontend --rm -it -p 3000:3000 --network goals-net   -v /root/docker-and-k8s/multi-container-apps/frontend/src:/app/src goals-react
+docker run --name goals-frontend --rm -it -p 3000:3000 --network goals-net -v /root/docker-and-k8s/multi-container-apps/frontend/src:/app/src goals-react
 ```
 - Live reload enabled.
 - Optimize with `.dockerignore`.
