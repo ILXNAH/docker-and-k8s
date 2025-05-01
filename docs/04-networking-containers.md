@@ -5,10 +5,10 @@
 - [Connecting Containers](#connecting-containers)
 - [Docker communication / types of requests](#docker-communication--types-of-requests)
   - [Requests from container to host machine](#requests-from-container-to-host-machine)
-    - [Cross-container: Creating container networks](#cross-container-creating-container-networks)
-      - [Run container & assign it to a network](#run-container--assign-it-to-a-network)
-      - [Understanding Docker Network IP Resolving](#understanding-docker-network-ip-resolving)
-      - [Docker network drivers](#docker-network-drivers)
+  - [Cross-container: Creating container networks](#cross-container-creating-container-networks)
+    - [Run container & assign it to a network](#run-container--assign-it-to-a-network)
+    - [Understanding Docker Network IP Resolving](#understanding-docker-network-ip-resolving)
+    - [Docker network drivers](#docker-network-drivers)
 - [Module Resources](#module-resources)
 
 ---
