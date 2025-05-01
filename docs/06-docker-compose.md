@@ -7,7 +7,7 @@
   - [❌ What it is NOT](#-what-it-is-not)
 - [Creating a Compose File](#creating-a-compose-file)
 - [⚙️ Compose File Config](#️-compose-file-config)
-- [Docker Compose Up ⬆️ & Docker Compose Down ⬇️](#docker-compose-up--docker-compose-down)
+- [Docker Compose Up ⬆️ & Docker Compose Down ⬇️](#docker-compose-up--docker-compose-down-)
 - [🐳🐳🐳 Working with Multiple Containers - BE](#-working-with-multiple-containers---be)
 - [Adding Another Container - FE](#adding-another-container---fe)
 - [Building Images & Understanding Container Names](#building-images--understanding-container-names)
