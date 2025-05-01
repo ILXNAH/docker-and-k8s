@@ -137,4 +137,5 @@ Apps automatically reload on code changes (not recommended for production).
 - Long docker run commands.
 - Development environment not optimized for production.
 
+### 📚 Module Resources
 - [Section 5 - Course Slides](https://ilxnah.github.io/docker-and-k8s/resources/slides-multi-container.pdf)
