@@ -1,7 +1,5 @@
 # 5. Building Multi-Container Applications with Docker
-
 ## 📁 Table of Contents
-
 - [🧾 Module content](#-module-content)
 - [Demo project](#demo-project)
   - [Three building blocks](#three-building-blocks)
@@ -27,14 +25,11 @@
 ---
 
 ## 🧾 Module content
-
 1. Combining multiple services to one app.
 2. Working with multiple containers.
 
 ## Demo project
-
 ### Three building blocks
-
 1. Mongo database.
 2. BE = NodeJS REST API.
 3. FE = React SPA (Single-Page Application).
@@ -43,120 +38,96 @@
 - Started with a dev server that hosts the React SPA.
 
 ### Dockerization of all three project parts
-
 #### 1️⃣ Database
-
 - DB & BE already done in previous modules.
 - Data must persist.
 - Access should be limited — [official mongo image](https://hub.docker.com/_/mongo/) provides user + password options.
 
 #### 2️⃣ Backend
-
 - Data persistence (logs).
 - Live source code updates (needs a 3rd party package).
 
 #### 3️⃣ Frontend
-
 - Dockerizing React (challenging without a guide).
 - Live source code updates.
 
 ### Dockerize database
-
 ```bash
 docker run --name mongodb -d --rm -p 27017:27017 mongo
 ```
 
 ### Dockerize BE
-
 - Create custom Dockerfile.
 - Update MongoDB address to `host.docker.internal`.
 - Rebuild and run:
-
 ```bash
 docker run --name goals-backend --rm -d -p 80:80 goals-node
 ```
 
 ### Dockerize FE
-
 - Dockerfile using `FROM node:20`.
 - Build and run:
-
 ```bash
 docker build -t goals-react .
 docker run --name goals-frontend --rm -d -p 3000:3000 -it goals-react
 ```
 
 ### Putting all apps into the same network
-
 ```bash
 docker network create goals-net
 ```
-
 - Update app code to use container names.
 - Rebuild and run containers with `--network goals-net`.
 
 ### 🚀 Optimize: Set up data persistence, access limitation, live source code updates etc.
-
 #### Adding Data Persistence to MongoDB with Volumes
-
 ```bash
 docker run --name mongodb -v data:/data/db --rm -d --network goals-net mongo
 ```
 
 #### Security, authentication, access limitation
-
 ```bash
 docker run --name mongodb -v data:/data/db --rm -d --network goals-net   -e MONGO_INITDB_ROOT_USERNAME=ilona   -e MONGO_INITDB_ROOT_PASSWORD=secret mongo
 ```
 
 ##### Standard MongoDB Connection String Format
-
 ```bash
 mongodb://ilona:secret@mongodb:27017/course-goals
 ```
 
 ##### Standalone Connection String to enforce access control
-
 ```bash
 mongodb://ilona:secret@mongodb:27017/course-goals?authSource=admin
 ```
 
 ##### 👉 Sidenote
-
 If volume metadata exists, new users/credentials will not apply. To fix:
-
 ```bash
 docker stop mongodb
 docker volume rm data
 ```
 
 #### Volumes, Bind Mounts & Polishing for the NodeJS Container
-
 ```bash
 docker run --rm -d -p 80:80 --name goals-backend --network goals-net   -v /root/docker-and-k8s/multi-container-apps/backend:/app   -v logs:/app/logs   -v /app/node_modules goals-node
 ```
-
 - Use nodemon for live code updates.
 - Add nodemon as a dev dependency.
 - Update start script in `package.json`.
 - Update Dockerfile to use npm start.
 
 #### Optimization of Backend
-
 - Set ENV variables in Dockerfile.
 - Use `.dockerignore`.
 
 #### Optimization of Frontend (React SPA Container)
-
 ```bash
 docker run --name goals-frontend --rm -it -p 3000:3000 --network goals-net   -v /root/docker-and-k8s/multi-container-apps/frontend/src:/app/src goals-react
 ```
-
 - Live reload enabled.
 - Optimize with `.dockerignore`.
 
 ## ✅ Module Summary & Resources
-
 ![Module Summary](/resources/images/20250430111319.png)
 
 **Development Only environment setup:**  
