@@ -2,7 +2,7 @@
 
 ## 📁 Table of Contents
 
-- [🧾 Module content](#🧾-module-content)
+- [🧾 Module content](#-module-content)
 - [Demo project](#demo-project)
   - [Three building blocks](#three-building-blocks)
   - [Dockerization of all three project parts](#dockerization-of-all-three-project-parts)
