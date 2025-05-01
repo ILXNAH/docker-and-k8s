@@ -38,13 +38,13 @@ Within a Docker network, all containers can communicate with each other and IPs 
 
 #### Run container & assign it to a network
 
-- First, create a network manually:  
+1. First, create a network manually:  
   `docker network create favorites-net`
 
-- Then, run/assign a container to it:  
+2. Then, run/assign a container to it:  
   `docker run -d --name mongodb --network favorites-net mongo`
 
-- Inspect all existing networks:  
+3. Inspect all existing networks:  
   `docker network ls`
 
 Add a second container:
