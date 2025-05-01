@@ -39,7 +39,7 @@
   - Networks
   - Anything else done via `docker run`
 
-- 🔗 [Official documentation](https://docs.docker.com/reference/compose-file/) for versions and options.
+- 🔗 [Official documentation](https://docs.docker.com/reference/compose-file/) for Compose versions, config options etc.
 - YAML is case-sensitive + correct indentation is essential.
 
 ## ⚙️ Compose File Config
