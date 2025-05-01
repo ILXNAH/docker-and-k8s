@@ -35,6 +35,7 @@
 3. FE = React SPA (Single-Page Application).
     - Detached from the BE.
     - Started with a dev server that hosts the React SPA.
+
 There are two separate web servers running in BE and in FE.
 
 ### Dockerization of all three project parts
