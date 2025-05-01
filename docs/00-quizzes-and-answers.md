@@ -117,3 +117,48 @@ docker rm mycontainer
 - No, you can use them to prioritize container-internal paths higher than external paths.
 
 ---
+
+**When running containers on your system (via `docker run`): Can these containers communicate with the world wide web?**
+- That's correct. By default, your containers (and the apps inside of them) can reach out to the web and send requests.
+
+---
+
+**How can applications running in a container communicate to your local host machine?**
+- By using the special `host.docker.internal` address.
+
+---
+
+**How can containers communicate with other containers?**
+- By manually finding the IP addresses or by using a network.
+
+---
+
+**How can containers communicate with each other if they are in the same network?**
+- You can use the container names as addresses.
+
+---
+
+**Does the `docker-compose` command replace the `docker` command?**
+- No, both commands can work together.
+
+---
+
+**Which problem does `docker-compose` mainly solve?**
+- Annoying repetition of (long) commands.
+
+---
+
+**Which statement is NOT true?**
+- docker-compose removes the concept of container images by just focusing on containers.
+
+---
+
+**Which of the following statements is true?**
+- With docker-compose, you can define volumes and add them to containers.
+
+---
+
+**Which of the following statements is true?**
+- With docker-compose, a default network for all composed containers is created.
+
+---
