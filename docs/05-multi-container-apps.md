@@ -64,7 +64,7 @@ There are two separate web servers running in BE and in FE.
 
 ### 3. Dockerize FE
 - By default, the FE app exposes the port 3000.
-- Build **Dockerfile** (with `FROM node:20` to ensure Node.js and dependency version compatibility).
+- Build **[Dockerfile](/05-multi-container-apps/frontend/Dockerfile)** (with `FROM node:20` to ensure Node.js and dependency version compatibility).
 - Afterwards, build the image from it with: `docker build -t goals-react .`
 - From the image, run a container with: `docker run --name goals-frontend --rm -d -p 3000:3000 -it goals-react`
     - If the React app loses its input signal, it shuts down automatically.
