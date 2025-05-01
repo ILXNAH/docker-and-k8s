@@ -20,3 +20,4 @@ yarn-error.log
 
 # Ignore Ansible local configuration and cache
 .ansible/
+docs/05-multi-container-apps.md

@@ -22,7 +22,7 @@ This repository is intended for personal learning and sharing insights with othe
 4. [Networking: (Cross-)Container Communication](docs/04-networking-containers.md)
 5. [Building Multi-Container Applications with Docker](docs/05-multi-container-apps.md)
 6. [Docker Compose: Elegant Multi-Container Orchestration](docs/06-docker-compose.md)
-7. [Working with "Utility Containers" & Executing Commands](docs/07-utility-containers-commands.md)
+7. [Working with "Utility Containers" & Executing Commands](docs/07-utility-containers.md)
 8. [A More Complex Setup: A Laravel & PHP Dockerized Project](docs/08-laravel-php-project.md)
 9. [Deploying Docker Containers](docs/09-deploying-docker-containers.md)
 10. [Docker & Containers - A Summary](docs/10-docker-containers-summary.md)
