@@ -7,9 +7,9 @@
     - [1️⃣ Database](#1️⃣-database)
     - [2️⃣ Backend](#2️⃣-backend)
     - [3️⃣ Frontend](#3️⃣-frontend)
-  - [Dockerize database](#dockerize-database)
-  - [Dockerize BE](#dockerize-be)
-  - [Dockerize FE](#dockerize-fe)
+  - [Dockerize database](#1-dockerize-database)
+  - [Dockerize BE](#2-dockerize-be)
+  - [Dockerize FE](#3-dockerize-fe)
   - [Putting all apps into the same network](#putting-all-apps-into-the-same-network)
   - [🚀 Optimize: Set up data persistence, access limitation, live source code updates etc.](#-optimize-set-up-data-persistence-access-limitation-live-source-code-updates-etc)
     - [Adding Data Persistence to MongoDB with Volumes](#adding-data-persistence-to-mongodb-with-volumes)
@@ -52,12 +52,12 @@ There are two separate web servers running in BE and in FE.
 - Dockerizing React (challenging without a guide).
 - Live source code updates.
 
-### Dockerize database
+### 1. Dockerize database
 ```bash
 docker run --name mongodb -d --rm -p 27017:27017 mongo
 ```
 
-### Dockerize BE
+### 2. Dockerize BE
 - Create custom Dockerfile.
 - Update MongoDB address to `host.docker.internal`.
 - Rebuild and run:
@@ -65,7 +65,7 @@ docker run --name mongodb -d --rm -p 27017:27017 mongo
 docker run --name goals-backend --rm -d -p 80:80 goals-node
 ```
 
-### Dockerize FE
+### 3. Dockerize FE
 - By default, the FE app exposes the port 3000.
 - Build **Dockerfile** (with `FROM node:20` to ensure Node.js and dependency version compatibility).
 - Afterwards, build the image from it with:
