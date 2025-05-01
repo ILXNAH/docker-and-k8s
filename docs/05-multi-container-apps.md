@@ -53,14 +53,17 @@ There are two separate web servers running in BE and in FE.
 - Live source code updates.
 
 ### 1. Dockerize database
+- there is no need to manually build the image since it is already available [here](https://hub.docker.com/_/mongo/)
+- run a container with:
 ```bash
 docker run --name mongodb -d --rm -p 27017:27017 mongo
 ```
 
 ### 2. Dockerize BE
-- Create custom Dockerfile.
-- Update MongoDB address to `host.docker.internal`.
-- Rebuild and run:
+- create our own custom **Dockerfile** for the BE app
+- edit BE mongodb address reference to `host.docker.internal`
+- rebuild the image
+- run with publishing the port exposed in the **Dockerfile** with:
 ```bash
 docker run --name goals-backend --rm -d -p 80:80 goals-node
 ```
