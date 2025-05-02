@@ -1,4 +1,4 @@
-# 📦 Images & Containers
+# 2. Images & Containers
 
 ## 📁 Table of Contents
 

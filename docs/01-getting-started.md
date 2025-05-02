@@ -1,4 +1,4 @@
-# Section 1: Getting Started
+# 1. Getting Started
 
 ## 📑 Table of Contents
 
