@@ -64,7 +64,7 @@ Tech picked -> build more complex dev env for such app compared to more simplist
 - in local project source folder, added folder `nginx` with predefined [`nginx.conf`](/08-laravel-php/nginx/nginx.conf)
 
 ### Adding a PHP Interpreter
-- using [official PHP image](https://hub.docker.com/_/php) as a basis
+- using official [PHP image](https://hub.docker.com/_/php) as a basis
 - building on top of it a custom [`Dockerfile`](/08-laravel-php/dockerfiles/php.dockerfile)
     - extra extensions installed for Laravel
     - tool `docker-php-ext-install` used to install php extensions/dependencies (`pdo pdo_mysql`)
