@@ -61,7 +61,7 @@ Tech picked -> build more complex dev env for such app compared to more simplist
 - official nginx image + documentation on [Docker Hub](https://hub.docker.com/_/nginx) 
     - mentions internally exposed ports, image variants (e.g. alpine) etc.
 - nginx service defined in [`docker-compose.yaml`](/08-laravel-php/docker-compose.yaml) as `server`
-- in local project source folder added folder nginx with predefined `nginx.conf`
+- in local project source folder, added folder `nginx` with predefined [`nginx.conf`](/08-laravel-php/nginx/nginx.conf)
 
 ### Adding a PHP Interpreter
 - using official PHP image as a basis
