@@ -60,7 +60,7 @@ Tech picked -> build more complex dev env for such app compared to more simplist
 ### Adding an Nginx Web Server
 - official nginx image + documentation on [Docker Hub](https://hub.docker.com/_/nginx) 
     - mentions internally exposed ports, image variants (e.g. alpine) etc.
-- nginx service defined in `docker-compose.yaml` as `server`
+- nginx service defined in [`docker-compose.yaml`](/08-laravel-php/docker-compose.yaml) as `server`
 - in local project source folder added folder nginx with predefined `nginx.conf`
 
 ### Adding a PHP Interpreter
