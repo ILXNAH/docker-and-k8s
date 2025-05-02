@@ -141,7 +141,7 @@ DB_PASSWORD=secret
 
 ## Bind Mounts and COPY: When To Use What
 
-- instead of using `docker-compose.yaml` definitions of config/source code during development:
+- instead of using [`docker-compose.yaml`](/08-laravel-php/docker-compose.yaml) definitions of config/source code during development:
 ```yaml
 server:
     image: 'nginx:stable-alpine'
@@ -154,7 +154,7 @@ server:
       - php
       - mysql
 ```
-- you could create a separate `Dockerfile` to copy over snapshots for deploying images independently - without relying on bind mounts:
+- you can create a separate [`nginx.dockerfile`](/08-laravel-php/dockerfiles/nginx.dockerfile) to copy over snapshots for deploying images independently - without relying on bind mounts:
 ```dockerfile
 FROM nginx:stable-alpine
 
