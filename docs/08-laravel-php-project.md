@@ -89,17 +89,17 @@ Tech picked -> build more complex dev env for such app compared to more simplist
     - `volume:` to mirror any built app code from inside the container into local host's source folder `/src`
 
 #### Creating Laravel App via Composer
-- install Laravel via Composer Create-Project -- cmd from official doc:
+- install Laravel via Composer Create-Project -- cmd from [doc](https://laravel.com/docs/4.2/installation):
 ```
 composer create-project laravel/laravel {directory} 4.2 --prefer-dist
 ```
-- **run a single utility container from docker-compose** via:
+- **run a single utility container from [`docker-compose.yaml`](/08-laravel-php/docker-compose.yaml)** via:
 ```
 docker-compose run --rm composer create-project laravel/laravel . --prefer-dist
 ```
 
 #### Launching Only Some Docker Compose Services
-- inside `.env` file in `/src` folder with generated Laravel app, there is following code block with DB connection info:
+- inside [`.env`](/08-laravel-php/src/.env) file in `/src` folder with generated Laravel app, there is following code block with DB connection info:
 ```
 DB_CONNECTION=sqlite
 # DB_HOST=127.0.0.1
@@ -108,7 +108,7 @@ DB_CONNECTION=sqlite
 # DB_USERNAME=root
 # DB_PASSWORD=
 ```
-- values should correspond with the ENV vars we set up for MySQL DB previously, i.e.:
+- values should correspond with the ENV vars we set up for [MySQL](/08-laravel-php/env/mysql.env) DB previously, i.e.:
 ```
 DB_CONNECTION=mysql
 DB_HOST=mysql
@@ -117,17 +117,17 @@ DB_DATABASE=homestead
 DB_USERNAME=homestead
 DB_PASSWORD=secret
 ```
-- bring up the services defined with `docker-compose up -d server php mysql`
-- define `depends_on:` for `server:` in docker-compose.yaml --> simplify up cmd to `docker-compose up -d server`
+- bring up the services defined with cmd `docker-compose up -d server php mysql`
+- define `depends_on:` for `server:` in [`docker-compose.yaml`](/08-laravel-php/docker-compose.yaml) --> simplify up cmd to `docker-compose up -d server`
 
 ### Adding More Utility Containers
 
 #### Artisan 
 = Laravel command built with PHP => needs PHP to execute code
-- needed to run certain Laravel commands, e.g. to populate DB with initial data
-- needs a custom `Dockerfile` --> reusing `php.dockerfile` with the same setup
-- needs access to local source code -- since it is executed on the source code --> added bind mount volume
-- since `php.dockerfile` does not have **entrypoint**, but it is needed for artisan --> additionally specified directly in `docker-compose.yaml` 
+- it is needed to run certain Laravel commands, e.g. to populate DB with initial data
+- needs a custom `Dockerfile` --> reusing [`php.dockerfile`](/08-laravel-php/dockerfiles/php.dockerfile) with the same setup
+- needs access to local source code -- since it is executed on the source code --> added bind mount volume in [`docker-compose.yaml`](/08-laravel-php/docker-compose.yaml)
+- since [`php.dockerfile`](/08-laravel-php/dockerfiles/php.dockerfile) does not have **entrypoint**, but it is needed for artisan --> additionally specified directly in [`docker-compose.yaml`](/08-laravel-php/docker-compose.yaml)
 
 #### npm
 ```yaml
