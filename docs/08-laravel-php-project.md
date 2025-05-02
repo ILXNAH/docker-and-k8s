@@ -1,6 +1,6 @@
-# Module Introduction
-## Table of Contents
+# 8. Laravel & PHP Dockerized Project
 
+## Table of Contents
 - [Module Introduction](#module-introduction)
 - [Target Setup](#target-setup)
 - [Laravel Setup - Building Blocks](#laravel-setup---building-blocks)
@@ -18,6 +18,7 @@
 - [Bind Mounts and COPY: When To Use What](#bind-mounts-and-copy-when-to-use-what)
 - [Module Resources](#module-resources)
 
+# Module Introduction
 **Practice: A Laravel & PHP Setup**
 - Images, Container, Compose - All in Action
 - No Laravel knowledge is required!
@@ -168,4 +169,4 @@ COPY src .
 ```
 
 ## Module Resources
-[Slides Laravel.pdf]([slides-laravel.pdf])
+- [Slides Laravel.pdf](https://ilxnah.github.io/docker-and-k8s/resources/slides-laravel.pdf)
