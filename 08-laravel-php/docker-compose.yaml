@@ -10,8 +10,8 @@ services:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
   php:
     build:
-      context: ./dockerfiles
-      dockerfile: php.dockerfile
+      context: .
+      dockerfile: dockerfiles/php.dockerfile
     volumes:
       - ./src:/var/www/html:delegated
     # ports:
@@ -22,8 +22,8 @@ services:
       - ./env/mysql.env
   composer:
     build:
-      context: ./dockerfiles
-      dockerfile: composer.dockerfile
+      context: .
+      dockerfile: dockerfiles/composer.dockerfile
     volumes:
       - ./src/:/var/www/html
 #   artisan:
