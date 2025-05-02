@@ -75,9 +75,9 @@ Tech picked -> build more complex dev env for such app compared to more simplist
 ### Adding a MySQL Database
 - using official [MySQL image](https://hub.docker.com/_/mysql) from Docker Hub (comparable to previously used MongoDB image)
 - runs a database which will be handled by PHP container
-- in `docker-compose.yaml` should be defined ENV variables (described in image doc)
-    - set in a separate `.env` file and link into docker-compose
-        - `MYSQL_DATABASE=homestead` & `MYSQL_USER=homestead` --> set as per Laravel doc
+- in [`docker-compose.yaml`](/08-laravel-php/docker-compose.yaml) should be defined ENV variables (described in the mysql image doc)
+    - set in a separate [`.env`](/08-laravel-php/env/mysql.env) file and link into [`docker-compose.yaml`](/08-laravel-php/docker-compose.yaml)
+        - `MYSQL_DATABASE=homestead` & `MYSQL_USER=homestead` --> set as per [Laravel Doc](https://laravel.com/docs/master/documentation)
 
 ## Adding Utility Containers
 
