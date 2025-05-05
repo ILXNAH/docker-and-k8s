@@ -68,6 +68,10 @@ kubectl help
 
 # Create a deployment using a locally built image (for testing)
 kubectl create deployment k8s-first-app --image=k8s-first-app
+# ❗ This command will fail because the Kubernetes nodes (Minikube) cannot access local Docker images directly.
+# You would need to either:
+# - Load the image into Minikube: minikube image load k8s-first-app
+# - Or push the image to a registry like Docker Hub (which we do below).
 
 # Check deployments and pods status
 kubectl get deployments
