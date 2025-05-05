@@ -30,7 +30,7 @@ This repository is intended for personal learning and sharing insights with othe
 12. [Kubernetes in Action - Diving into Core Concepts](docs/12-kubernetes-core-concepts.md)
 13. [Managing Data & Volumes with Kubernetes](docs/13-kubernetes-managing-data-volumes.md)
 14. [Kubernetes Networking](docs/14-kubernetes-networking.md)
-15. [Kubernetes Deployment (AWS EKS)](docs/15-kubernetes-aws-eks.md)
+15. [Kubernetes Deployment (AWS EKS)](docs/15-kubernetes-aws-eks.md) -- currently skipping 
 16. [Roundup & Next Steps](docs/16-roundup-next-steps.md)
 
 ## 📚 Additional Resources
