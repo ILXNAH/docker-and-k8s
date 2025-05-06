@@ -12,4 +12,3 @@ services:
       - "8000:8000"
     environment:
       TASKS_FOLDER: tasks
-    
